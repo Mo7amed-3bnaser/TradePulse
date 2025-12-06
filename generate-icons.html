@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Icon Generator</title>
+</head>
+<body>
+    <canvas id="canvas512" width="512" height="512"></canvas>
+    <canvas id="canvas192" width="192" height="192"></canvas>
+    
+    <script>
+        // 512x512 icon
+        const canvas512 = document.getElementById('canvas512');
+        const ctx512 = canvas512.getContext('2d');
+        
+        // Gradient background
+        const gradient512 = ctx512.createLinearGradient(0, 0, 512, 512);
+        gradient512.addColorStop(0, '#8b5cf6');
+        gradient512.addColorStop(1, '#ec4899');
+        
+        // Rounded rectangle
+        ctx512.fillStyle = gradient512;
+        ctx512.beginPath();
+        ctx512.roundRect(0, 0, 512, 512, 120);
+        ctx512.fill();
+        
+        // Text
+        ctx512.fillStyle = 'white';
+        ctx512.font = 'bold 280px Arial';
+        ctx512.textAlign = 'center';
+        ctx512.textBaseline = 'middle';
+        ctx512.fillText('T', 256, 280);
+        
+        // 192x192 icon
+        const canvas192 = document.getElementById('canvas192');
+        const ctx192 = canvas192.getContext('2d');
+        
+        const gradient192 = ctx192.createLinearGradient(0, 0, 192, 192);
+        gradient192.addColorStop(0, '#8b5cf6');
+        gradient192.addColorStop(1, '#ec4899');
+        
+        ctx192.fillStyle = gradient192;
+        ctx192.beginPath();
+        ctx192.roundRect(0, 0, 192, 192, 45);
+        ctx192.fill();
+        
+        ctx192.fillStyle = 'white';
+        ctx192.font = 'bold 105px Arial';
+        ctx192.textAlign = 'center';
+        ctx192.textBaseline = 'middle';
+        ctx192.fillText('T', 96, 105);
+        
+        // Download links
+        setTimeout(() => {
+            const link512 = document.createElement('a');
+            link512.download = 'icon-512x512.png';
+            link512.href = canvas512.toDataURL();
+            link512.click();
+            
+            setTimeout(() => {
+                const link192 = document.createElement('a');
+                link192.download = 'icon-192x192.png';
+                link192.href = canvas192.toDataURL();
+                link192.click();
+            }, 100);
+        }, 100);
+    </script>
+</body>
+</html>
