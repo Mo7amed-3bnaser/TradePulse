@@ -1,94 +1,96 @@
 # TradePulse 📈
 
-تطبيق ويب متقدم لتتبع أسعار العملات الرقمية والمعادن الثمينة في الوقت الفعلي
+Advanced web application for tracking cryptocurrency and precious metals prices in real-time
 
-## ✨ المميزات
+## ✨ Features
 
-- 🔄 **تحديثات فورية** - أسعار مباشرة لأكثر من 100 عملة
-- 💰 **أسعار الذهب والفضة** - تتبع أسعار المعادن الثمينة بالجنيه المصري
-- 📊 **رسوم بيانية تفاعلية** - تحليل الأسعار التاريخية
-- 🧮 **حاسبة متقدمة** - حسابات دقيقة للعملات والمجوهرات
-- 📱 **PWA** - يعمل بدون إنترنت مع دعم التثبيت
-- 🔔 **تنبيهات الأسعار** - إشعارات فورية عند الوصول للسعر المستهدف
-- 📰 **الأخبار** - آخر أخبار العملات الرقمية
-- 💼 **المحفظة** - إدارة استثماراتك مع تقارير PDF
-- 🌙 **الوضع الليلي** - واجهة مريحة للعين
-- 🌐 **متعدد اللغات** - دعم العربية والإنجليزية
+- 🔄 **Real-time Updates** - Live prices for 100+ cryptocurrencies
+- 💰 **Gold & Silver Prices** - Track precious metals in Egyptian Pounds (EGP)
+- 📊 **Interactive Charts** - Historical price analysis with beautiful graphs
+- 🧮 **Advanced Calculator** - Precise calculations for currencies and jewelry
+- 📱 **PWA Support** - Works offline with install capability
+- 🔔 **Price Alerts** - Instant notifications when target price is reached
+- 📰 **Crypto News** - Latest cryptocurrency news feed
+- 💼 **Portfolio Tracker** - Manage your investments with PDF reports
+- 🌙 **Dark Mode** - Eye-friendly interface
+- 🌐 **Multi-language** - Arabic and English support
 
-## 🚀 التقنيات المستخدمة
+## 🚀 Tech Stack
 
-- **React 18** - مكتبة واجهة المستخدم
-- **Vite** - أداة البناء السريعة
-- **Tailwind CSS** - تصميم عصري ومرن
-- **React Query** - إدارة البيانات والـ cache
-- **Framer Motion** - رسوم متحركة سلسة
-- **Zustand** - إدارة الحالة
-- **Recharts** - رسوم بيانية احترافية
-- **i18next** - ترجمة متعددة اللغات
-- **PWA** - دعم Progressive Web App
+- **React 18** - UI library
+- **Vite** - Fast build tool
+- **Tailwind CSS** - Modern styling framework
+- **React Query** - Data fetching and caching
+- **Framer Motion** - Smooth animations
+- **Zustand** - State management
+- **Recharts** - Professional charts
+- **i18next** - Internationalization
+- **PWA** - Progressive Web App support
 
-## 📦 التثبيت
+## 📦 Installation
 
 ```bash
-# استنساخ المشروع
+# Clone the project
 git clone https://github.com/Mo7amed-3bnaser/TradePulse.git
 
-# الانتقال للمجلد
+# Navigate to directory
 cd TradePulse
 
-# تثبيت المكتبات
+# Install dependencies
 npm install
 
-# تشغيل المشروع
+# Run development server
 npm run dev
 ```
 
-## 🏗️ البناء للإنتاج
+## 🏗️ Build for Production
 
 ```bash
 npm run build
 ```
 
-## 🌐 النشر
+## 🌐 Deployment
 
-المشروع جاهز للنشر على:
+Ready to deploy on:
+
 - **Netlify** ✅
 - **Vercel**
 - **GitHub Pages**
 
 ## 📱 PWA Features
 
-- ✅ يعمل بدون إنترنت
-- ✅ قابل للتثبيت على الهاتف
-- ✅ تحديثات تلقائية
-- ✅ إشعارات Push
+- ✅ Works offline
+- ✅ Installable on mobile devices
+- ✅ Automatic updates
+- ✅ Push notifications
 
-## 🎨 الصفحات
+## 🎨 Pages
 
-1. **الرئيسية** - عرض جميع الأسعار
-2. **التفاصيل** - معلومات تفصيلية عن كل عملة
-3. **الحاسبة** - تحويل العملات
-4. **حاسبة المجوهرات** - حساب أسعار الذهب والأحجار الكريمة
-5. **الرسوم البيانية** - تحليل تاريخي
-6. **الأخبار والتنبيهات** - آخر الأخبار وإدارة التنبيهات
-7. **المحفظة** - تتبع الاستثمارات
+1. **Home** - Display all prices
+2. **Details** - Detailed coin information
+3. **Calculator** - Currency converter
+4. **Jewelry Calculator** - Gold and gemstone pricing
+5. **Charts** - Historical analysis
+6. **News & Alerts** - Latest news and alert management
+7. **Portfolio** - Investment tracking
 
-## 🔑 APIs المستخدمة
+## 🔑 APIs Used
 
-- **CoinGecko API** - أسعار العملات الرقمية
-- **GoldPrice.org API** - أسعار المعادن الثمينة
-- **RSS2JSON** - أخبار CoinDesk
-- **ExchangeRate API** - أسعار صرف الجنيه المصري
+- **CoinGecko API** - Cryptocurrency prices
+- **GoldPrice.org API** - Precious metals prices
+- **RSS2JSON** - CoinDesk news feed
+- **ExchangeRate API** - EGP exchange rates
 
-## 👨‍💻 المطور
+## 👨‍💻 Developer
 
 **Mohamed Abanaser**
+
 - GitHub: [@Mo7amed-3bnaser](https://github.com/Mo7amed-3bnaser)
 
-## 📄 الترخيص
+## 📄 License
 
-MIT License - استخدم المشروع بحرية!
+MIT License - Feel free to use this project!
 
 ---
 
-⭐ إذا أعجبك المشروع، لا تنسى النجمة على GitHub!
+⭐ If you like this project, don't forget to star it on GitHub!
